@@ -103,6 +103,12 @@ h4 {
   background-color: black;
 }
 
+@media (hover: none) {
+  #mySidenav a:hover {
+    left: -160px;
+  }
+}
+
 #mySidenav a:active {
   background-color: #22476b;
 }
