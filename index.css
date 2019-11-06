@@ -103,7 +103,7 @@ ul {
 }
 
 section {
-  margin: 5vh auto;
+  margin: 2vh auto;
   padding: 0 5vw;
   width: 100%;
 }
@@ -165,7 +165,6 @@ h2 {
 
 h3 {
   font-size: 8vh;
-  padding-top: 50px;
   margin-bottom: 35px;
   text-align: center;
 }
@@ -195,17 +194,6 @@ h4 {
   font-size: 20px;
 }
 
-details {
-  cursor: pointer;
-  font-size: 20px;
-  font-weight: bold;
-  margin: 20px;
-  text-align: center;
-}
-
-details > a, p {
-  font-weight: normal;
-}
 
 /* projects styling */
 
@@ -249,7 +237,6 @@ details > a, p {
 
 #skills h3 {
   flex-basis: 100%;
-  padding-top: 50px;
   width: 100%;
 }
 
@@ -271,11 +258,14 @@ details > a, p {
   background: rgba(36, 67, 95, 0.8) linear-gradient(0deg,rgba(20,61,102,.7),rgba(20,61,102,0) 75%);
   border: 2px solid rgb(162, 184, 204);
   color: #cce6ff;
-  display: flex;
   margin: 0;
 }
 
-#contact p {
+#contact .contact-container {
+  display: flex;
+}
+
+#contact h5 {
   font-family: "Segoe UI", sans-serif;
   font-size: 24px;
   line-height: 60px;
@@ -291,6 +281,23 @@ details > a, p {
   text-align: center;
 }
 
-svg {
-  margin: 4%;
+/* More about me styling */
+
+#contact details {
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px;
+  text-align: center;
 }
+
+#contact details > a {
+  color: #F07B85;
+  font-weight: normal;
+}
+
+#contact details > p {
+  font-weight: normal;
+  font-size: 14px;
+}
+
