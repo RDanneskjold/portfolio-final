@@ -211,6 +211,9 @@ details > a, p {
 
 .project {
   margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .details, .screenshot{
@@ -233,12 +236,14 @@ details > a, p {
   margin-left: 30px;
 }
 
-/* skills and contact styling */
+/* skills styling */
 
-#skills, .project {
+#skills {
+  background: grey;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  color: white;
 }
 
 #skills h3, #contact h3 {
@@ -248,7 +253,7 @@ details > a, p {
 }
 
 #skills ul {
-  flex: 1 0 28%;
+  flex: 1 0 18%;
   margin: 2%;
   max-width: 28%;
   min-width: 250px;
@@ -259,6 +264,8 @@ details > a, p {
   font-size: 4vh;
   font-weight: bold;
 }
+
+/* contact styling */
 
 #contact {
   background: rgba(36, 67, 95, 0.8) linear-gradient(0deg,rgba(20,61,102,.7),rgba(20,61,102,0) 75%);
